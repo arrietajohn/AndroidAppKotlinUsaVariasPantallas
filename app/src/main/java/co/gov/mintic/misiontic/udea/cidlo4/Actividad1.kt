@@ -24,6 +24,14 @@ class Actividad1 : AppCompatActivity() {
         val intento = Intent(this, Actividad2::class.java)
         intento.putExtra("dato1",dato1)
         startActivity(intento)
+        // FORMA ALTERNATIVA # 2
+        // EXISTEN OTRAS MANERAS DE HACER LO MISMO, ¿CUALES SON?
+        /*
+        val intento = Intent(this, Actividad2::class.java).apply {
+            putExtra("dato1", dato1)
+        }
+        startActivity(intento)
+         */
     }
 }
 
