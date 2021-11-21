@@ -17,6 +17,12 @@ class Actividad1 : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         findViewById<TextView>(R.id.txtDato1).text = intent.getStringExtra("dato2")
+        // FORMA ALTERNATIVA DE APLICAR CAMBIOS A UN COMPONENTE
+        /*
+        val txtDato1 = findViewById<TextView>(R.id.txtDato1).apply {
+            text =  intent.getStringExtra("dato2")
+        }
+         */
     }
 
     fun abrirActividad2(v : View){
