@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.gov.mintic.misiontic.udea.cidlo4.Actividad1">
+
+    <EditText
+        android:id="@+id/campoDato1"
+        android:layout_width="282dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/digite_algo"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btnActividad1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDato1"
+        android:autofillHints=""
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="29dp"
+        android:gravity="center"
+        android:text="@string/primera_actividad"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#15299C"
+        app:layout_constraintBottom_toTopOf="@+id/txtDato1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnActividad1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="410dp"
+        android:gravity="center"
+        android:onClick="abrirActividad2"
+        android:text="@string/ir_a_la_segunda_actividad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campoDato1" />
+
+    <TextView
+        android:id="@+id/txtDato1"
+        android:layout_width="367dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="29dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#0A7C0E"
+        app:layout_constraintBottom_toTopOf="@+id/campoDato1"
+        app:layout_constraintEnd_toEndOf="@+id/campoDato1"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

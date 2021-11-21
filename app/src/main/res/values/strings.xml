@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppVariasActividadades</string>
+    <string name="segunda_actividad">SEGUNDA ACTIVIDAD</string>
+    <string name="digite_algo">Digite algo</string>
+    <string name="ir_a_la_pimera_actividad">Ir a la Pimera Actividad</string>
+    <string name="primera_actividad">PRIMERA ACTIVIDAD</string>
+    <string name="digite_algo">Digite algo</string>
+    <string name="ir_a_la_segunda_actividad">Ir a la Segunda Actividad</string>
+</resources>
